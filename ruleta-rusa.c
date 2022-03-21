@@ -2,8 +2,8 @@
 #include <stdlib.h>
 int main(int argc, char const *argv[]) {
   int rata;
-  rata = rand()%10;
-  if ( rand() == 1 ){
+  rata = rand()%6;
+  if ( rand() == 1){
     printf("I am a fucking rat\n");
   }
   else{
